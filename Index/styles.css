@@ -1,0 +1,164 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.landing-container {
+    text-align: center;
+}
+
+.landing-header {
+    background-color: #004d99;
+    color: white;
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+}
+
+.banner {
+    width: 90%;
+}
+
+.landing-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.landing-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.landing-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('parking-lot.jpg');
+    background-size: cover;
+    padding: 20px 20px;
+    color: black;
+}
+
+.about {
+    text-align: left;
+    padding: 40px 160px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-bg {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    margin: 10px;
+    width: 70%;
+}
+
+.btn-get-started {
+    background-color: #22b573;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.features {
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-item {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+}
+
+.landing-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+
+.contact {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    width: 40%;
+    text-align: left;
+    font-size: 18px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #333;
+}
+
+.contact-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.btn-submit {
+    background-color: #22b573;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-submit:hover {
+    background-color: #1b9a62;
+}

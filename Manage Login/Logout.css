@@ -1,0 +1,24 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; /* Optional: Adding a background color for better visibility */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px; /* Added horizontal padding for better button appearance */
+    margin-bottom: 15px;
+    border: none; /* Ensure no border for primary button */
+    border-radius: 20px;
+    cursor: pointer; /* Change cursor to pointer for better UX */
+    text-decoration: none; /* Remove any text decoration */
+    display: inline-block; /* Ensure button-like display */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
