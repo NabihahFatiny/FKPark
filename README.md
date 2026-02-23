@@ -1,7 +1,6 @@
-FK PARK- Car Parking Management System
+<img width="1339" height="621" alt="image" src="https://github.com/user-attachments/assets/1acfc143-366f-4153-8c2a-8ad62db081f6" />
+<img width="232" height="154" alt="image" src="https://github.com/user-attachments/assets/da91c8f1-8ec7-486b-9d05-2e1506cc8d2c" />
 
-<img width="1349" height="629" alt="image_2026-02-23_14-52-45" src="https://github.com/user-attachments/assets/aa878c47-6645-426a-abf4-ed2097ca7226" />
-<img width="239" height="159" alt="image_2026-02-23_14-47-01" src="https://github.com/user-attachments/assets/b3d86b52-61e9-4b40-b6f4-fb248b60bf67" />
 
 # FK PARK- Car Parking Management System
 FKPark is a web-based Car Parking Management System built with PHP and MySQL, featuring vehicle registration, parking slot booking, QR code-based access control, and traffic summons management for efficient campus parking operations.
